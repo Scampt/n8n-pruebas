@@ -1,5 +1,10 @@
-# Ignorar todo el frontend
-packages/frontend/*
+# Ignorar node_modules
+**/node_modules
 
-# Exceptuar la carpeta ya compilada
+# Ignorar paquetes no necesarios
+packages/frontend/*
+packages/cli/*
+
+# Pero incluir dist
 !packages/frontend/dist
+!packages/cli/dist
