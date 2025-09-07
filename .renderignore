@@ -1,0 +1,5 @@
+# Ignorar todo el frontend
+packages/frontend/*
+
+# Exceptuar la carpeta ya compilada
+!packages/frontend/dist
